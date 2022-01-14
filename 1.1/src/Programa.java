@@ -17,5 +17,13 @@ public class Programa {
         System.out.println(numeroPequeno);
         byte numeroNanico = 127;
         System.out.println(numeroNanico);
+        // outra lang mesmos problem situations
+        double valor1 = 0.2;
+        double valor2 = 0.1;
+        double soma = valor1 + valor2; // numero maluco comum
+        System.out.println(soma);
+        /* tem o float pra ponto flutuante mas é 32 bits então
+         se prefere usar só o double msm q é 64, mas
+          dá pra usar float passando o (float) ou pondo f no final*/
     }
 }
